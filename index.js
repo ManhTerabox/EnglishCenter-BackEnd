@@ -10,7 +10,7 @@ const ClassRoutes = require("./routes/class.routes");
 const SubjectRoutes = require("./routes/Subject.routes");
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(helmet());
