@@ -1,14 +1,14 @@
 {
   "name": "apisms",
   "version": "1.0.0",
-  "description": "api of the school management system",
+  "description": "api of the english center management system",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "nodemon index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rukshan99/api-SchoolMS.git"
+    "type": "git"
   },
   "author": "",
   "license": "ISC",
