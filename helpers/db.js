@@ -5,7 +5,7 @@ const MongoClient = mongodb.MongoClient;
 
 let _db;
 
-const mongoUrl = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@englishcenter.hzvbles.mongodb.net/EnglishCenter?retryWrites=true&w=majority`;
+const mongoUrl = `mongodb+srv://manhphterabox:Phanhuymanh123@englishcenter.hzvbles.mongodb.net/EnglishCenter?retryWrites=true&w=majority`;
 
 exports.initDb = async (cb) => {
   if (_db) return cb(null, _db);
