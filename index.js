@@ -34,5 +34,3 @@ initDb((error, client) => {
     app.listen(port, () => {});
   }
 });
-
-module.exports = app;
