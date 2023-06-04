@@ -30,7 +30,7 @@ app.use((error, req, res, next) => {
 
 initDb((error, client) => {
   if (error) {
-    console.log("error happen");
+    console.log("error happen: " + error);
   } else {
     app.listen(port, () => {
       console.log("app listened");
